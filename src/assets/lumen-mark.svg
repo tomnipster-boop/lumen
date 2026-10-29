@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="accent" x1="180" y1="160" x2="840" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff8ff"/>
+      <stop offset="0.5" stop-color="#cfb7ff"/>
+      <stop offset="1" stop-color="#f18eac"/>
+    </linearGradient>
+    <filter id="wide-glow" x="-80%" y="-80%" width="260%" height="260%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+    <filter id="tight-glow" x="-60%" y="-60%" width="220%" height="220%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+  </defs>
+  <g fill="none" stroke="#a874f2" stroke-width="62" stroke-linecap="round" stroke-linejoin="round" opacity=".48" filter="url(#wide-glow)">
+    <path d="M512 151 873 512 512 873 151 512Z"/>
+    <path d="m345 345 334 334M679 345 345 679"/>
+    <circle cx="512" cy="512" r="38" fill="#fff4ff" stroke="none"/>
+  </g>
+  <g fill="none" stroke="#d7b8ff" stroke-width="48" stroke-linecap="round" stroke-linejoin="round" opacity=".68" filter="url(#tight-glow)">
+    <path d="M512 151 873 512 512 873 151 512Z"/>
+    <path d="m345 345 334 334M679 345 345 679"/>
+    <circle cx="512" cy="512" r="38" fill="#fff8ff" stroke="none"/>
+  </g>
+  <path d="M512 151 873 512 512 873 151 512Z" fill="none" stroke="url(#accent)" stroke-width="34" stroke-linejoin="round"/>
+  <path d="m345 345 334 334M679 345 345 679" fill="none" stroke="url(#accent)" stroke-width="42" stroke-linecap="round"/>
+  <circle cx="512" cy="512" r="38" fill="#fffaff"/>
+</svg>

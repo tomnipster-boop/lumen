@@ -1,0 +1,29 @@
+{
+  "dynamic": {
+    "initial": "rgb(204, 112, 120)",
+    "intermediateColours": 12,
+    "cachedRepeat": true
+  },
+  "latestSelectionWins": true,
+  "static": {
+    "colour": "rgb(100, 216, 168)",
+    "wallpaperFixed": true,
+    "persisted": true
+  },
+  "quickSettings": {
+    "viewShortcut": true,
+    "volume": true,
+    "hardwareBrightness": true,
+    "actualOutputCommand": true,
+    "focusRestored": true
+  },
+  "brightnessFallback": {
+    "labelled": true,
+    "appOnly": true,
+    "persisted": true,
+    "hardwareRecovery": true
+  },
+  "reducedMotion": true,
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,25 @@
+/* Entrance geometry and surfaces remain in App.css. These values share the
+   Settings motion configuration used by controller scrolling. */
+.settings-backdrop {
+  transition: visibility 0s linear var(--settings-panel-duration);
+}
+
+.settings-backdrop--open {
+  transition-delay: 0s;
+}
+
+.settings-backdrop::before {
+  will-change: auto;
+  transition: opacity var(--settings-backdrop-duration) ease;
+}
+
+.settings-panel {
+  will-change: auto;
+  transition: transform var(--settings-panel-duration) var(--settings-entrance-easing),
+    opacity var(--settings-panel-fade-duration) ease;
+}
+
+.settings-panel [data-controller-scroll] {
+  scroll-behavior: auto;
+  overflow-anchor: none;
+}

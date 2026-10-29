@@ -1,0 +1,60 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Lumen",
+  "version": "0.1.0",
+  "identifier": "io.gwafbat.lumen",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Lumen",
+        "width": 1440,
+        "height": 900,
+        "minWidth": 900,
+        "minHeight": 580,
+        "center": true,
+        "resizable": true,
+        "decorations": false,
+        "fullscreen": true,
+        "backgroundColor": "#080b12"
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; connect-src 'self' ipc: http://ipc.localhost; img-src 'self' asset: http://asset.localhost data: blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:",
+      "assetProtocol": {
+        "enable": true,
+        "scope": [
+          "$HOME/Pictures/**",
+          "$HOME/Downloads/**",
+          "$HOME/References/**",
+          "/usr/share/backgrounds/**"
+        ]
+      }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["appimage"],
+    "category": "Game",
+    "shortDescription": "A console-style launcher for local Linux games",
+    "longDescription": "Lumen is a controller-friendly Linux desktop game launcher for local shell-script launchers, artwork, lifecycle tracking, and playtime.",
+    "linux": {
+      "appimage": {
+        "bundleMediaFramework": true
+      }
+    },
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

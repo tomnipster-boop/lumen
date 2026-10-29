@@ -1,0 +1,71 @@
+{
+  "scope": "Mocked Tauri and gamepad in cached Chromium; screenshots and wall-clock browser interpolation. No native controller, WebKitGTK, GPU-load or physical high-refresh-display claim.",
+  "rightTravel": {
+    "peakDegrees": 0.5456243088170782,
+    "overshootPassages": 1,
+    "finalDegrees": 0,
+    "maximumNeighborDifferenceDegrees": 0.000040130525226445,
+    "frames": 34
+  },
+  "leftTravel": {
+    "peakDegrees": 0.5535318617655329,
+    "overshootPassages": 1,
+    "finalDegrees": 0,
+    "maximumNeighborDifferenceDegrees": 0.0000378998358593341,
+    "frames": 32
+  },
+  "rapidAndHeldNavigation": {
+    "rapidFinalIndex": 3,
+    "heldSteps": 5,
+    "releaseStops": true
+  },
+  "idle": {
+    "radiiByDistance": [
+      0.9098784433821283,
+      0.752228672033502,
+      0.44948329902226586,
+      0.17259114203794104
+    ],
+    "distinctPhases": 7
+  },
+  "pauseSettings": {
+    "frozen": true,
+    "firstResumeDeltaPx": 0
+  },
+  "pauseHidden": {
+    "frozen": true,
+    "firstResumeDeltaPx": 0.013616084936574084
+  },
+  "pauseBlur": {
+    "frozen": true,
+    "firstResumeDeltaPx": 0.014316451236252671
+  },
+  "settings": {
+    "focus": {
+      "scroll": 373,
+      "maximum": 430,
+      "focused": "Move Test Game 08 earlier",
+      "bodyTop": 141.3125,
+      "bodyBottom": 797,
+      "focusTop": 455.078125,
+      "focusBottom": 483.078125
+    },
+    "intermediateScrollPositions": 14,
+    "wheelCancels": true,
+    "rightStickPixels": 227,
+    "rightStickReversal": true,
+    "reopenedHomeAtTop": true
+  },
+  "reducedMotion": {
+    "idleStopped": true,
+    "transitionDuration": "0s",
+    "finalAngle": 0
+  },
+  "browserErrors": [],
+  "rotationalStick": {
+    "rightSteps": 9,
+    "leftSteps": 5,
+    "releaseStops": true
+  },
+  "passed": true
+}

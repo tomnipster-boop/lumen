@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="base" cx="50%" cy="44%" r="72%">
+      <stop stop-color="#24203b"/>
+      <stop offset=".46" stop-color="#111220"/>
+      <stop offset="1" stop-color="#06070d"/>
+    </radialGradient>
+    <radialGradient id="violet" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#8f63d8" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#8f63d8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blue" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#3c6fb0" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#3c6fb0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#b28bf0" stop-opacity=".18"/>
+      <stop offset=".55" stop-color="#6446a2" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#221932" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="46"/></filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#base)"/>
+  <ellipse cx="930" cy="650" rx="620" ry="410" fill="url(#violet)" filter="url(#blur)"/>
+  <ellipse cx="1430" cy="260" rx="600" ry="390" fill="url(#blue)" filter="url(#blur)"/>
+  <path d="M-130 900C360 500 590 930 1040 520S1580 140 2080 300" fill="none" stroke="url(#ribbon)" stroke-width="170"/>
+  <path d="M-80 1010C420 650 690 1040 1120 650S1630 310 2010 420" fill="none" stroke="#c3a4ff" stroke-opacity=".045" stroke-width="2"/>
+  <circle cx="1490" cy="300" r="250" fill="none" stroke="#bda1ff" stroke-opacity=".055"/>
+  <circle cx="1490" cy="300" r="360" fill="none" stroke="#79a8df" stroke-opacity=".035"/>
+</svg>
